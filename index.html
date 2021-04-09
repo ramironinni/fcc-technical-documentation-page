@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Technical Documentation Page</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Introduction to Node.js</header>
+        <a class="nav-link" href="#An_Example_Node_js_Application">An Example Node js Application</a>
+        <a class="nav-link" href="#Node_js_Frameworks_and_Tools">Node js Frameworks and Tools</a>
+        <a class="nav-link" href="#A_little_bit_of_history">A little bit of history</a>
+        <a class="nav-link" href="#How_to_install_Node_js">How to install Node js</a>
+        <a class="nav-link" href="#How_much_JavaScript">How much JavaScript</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="An_Example_Node_js_Application">
+            <header>An Example Node js Application</header>
+            <p>The most common example Hello World of Node.js is a web server:</p>
+            <p>This code first includes the Node.js http module. Node.js has a fantastic standard library, including
+                first-class support for networking.
+                <code>The createServer()</code> method of http creates a new HTTP server and returns it.
+            </p>
+        </section>
+        <section class="main-section" id="Node_js_Frameworks_and_Tools">
+            <header>Node js Frameworks and Tools</header>
+            <p>Node.js is a low-level platform. In order to make things easy and exciting for developers, thousands of
+                libraries were
+                built upon Node.js by the community.</p>
+            <p>
+                Many of those established over time as popular options. Here is a non-comprehensive list of the ones
+                worth learning:</p>
+            <ul>
+                <li>
+                    AdonisJs: A full-stack framework highly focused on developer ergonomics, stability, and confidence.
+                    Adonis is one of the fastest Node.js web frameworks.
+                </li>
+                <li>Egg.js: A framework to build better enterprise frameworks and apps with Node.js & Koa.</li>
+                <li>Express: It provides one of the most simple yet powerful ways to create a web server. Its minimalist
+                    approach, unopinionated, focused on the core features of a server, is key to its success.</li>
+
+            </ul>
+        </section>
+        <section class="main-section" id="A_little_bit_of_history">
+            <header>A little bit of history</header>
+            <p>JavaScript is a programming language that was created at Netscape as a scripting tool to manipulate web
+                pages inside their browser, <strong>Netscape Navigator.</strong></p>
+            <p>Part of the business model of Netscape was to sell Web Servers, which included an environment called
+                <em>Netscape LiveWire</em> that could create dynamic pages using server-side JavaScript. Unfortunately,
+                Netscape
+                LiveWire wasn't very successful and server-side JavaScript wasn't popularized until recently, by the
+                introduction of Node.js.
+            </p>
+            </ul>
+        </section>
+        <section class="main-section" id="How_to_install_Node_js">
+            <header>How to install Node js</header>
+            <p>Node.js can be installed in different ways. This post highlights the most common and convenient ones.</p>
+            <p>Official packages for all the major platforms are available at <a class="link"
+                    href="https://nodejs.org/en/download/">Node page.</a></p>
+            <p>One very convenient way to install Node.js is through a package manager. In this case, every operating
+                system has its own.</p>
+            <p>On macOS, Homebrew is the de-facto standard, and - once installed - allows you to install Node.js very
+                easily, by running this command in the CLI:</p>
+            <p>
+                <code>brew install node</code>
+            </p>
+        </section>
+        <section class="main-section" id="How_much_JavaScript">
+            <header>How much JavaScript</header>
+            <p>As a beginner, it's hard to get to a point where you are confident enough in your programming abilities.
+            </p>
+            <p>While learning to code, you might also be confused at where does JavaScript end, and where Node.js
+                begins, and vice versa.</p>
+            <p>I would recommend you to have a good grasp of the main JavaScript concepts before diving into Node.js:
+            </p>
+            <ul>
+                <li>Lexical Structure</li>
+                <li>Expressions</li>
+                <li>Types</li>
+                <li>Variables</li>
+                <li>Functions</li>
+                <li>this</li>
+            </ul>
+            <p>On the browser, most of the time what you are doing is interacting with the DOM, or other Web Platform
+                APIs like Cookies. Those do not exist in Node.js, of course. You don't have the <code>document</code>,
+                <code>window</code> and all the other objects that are provided by the browser.
+            </p>
+            <p>In practice, this means that for the time being you use <code>require()</code> in Node.js and
+                <code>import</code> in the browser.
+            </p>
+        </section>
+
+    </main>
+    <footer>
+        <p>Copyright</p>
+    </footer>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
